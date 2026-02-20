@@ -10,7 +10,7 @@
       "scheduled_date": "2026-02-20",
       "status": "RELEASED",
       "outdoor": true
-    },
+    }, 
     {
       "order_id": "50000001",
       "plant": "UK02",
