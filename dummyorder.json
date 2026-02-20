@@ -17,7 +17,7 @@
       "city": "London",
       "work_center": "ELEC-LON-02",
       "short_text": "Air handler belt replacement",
-      "scheduled_date": "2026-02-21",
+      "scheduled_date": "2026-02-20",
       "status": "NEW",
       "outdoor": false
     },
@@ -26,7 +26,7 @@
       "plant": "UK02",
       "city": "Manchester",
       "work_center": "CIV-MAN-01",
-      "short_text": "Drainage pump inspection",
+      "short_text": "Drainage pump inspection (outdoor)",
       "scheduled_date": "2026-02-20",
       "status": "RELEASED",
       "outdoor": true
@@ -37,7 +37,7 @@
       "city": "Manchester",
       "work_center": "MECH-MAN-02",
       "short_text": "Generator fuel line inspection",
-      "scheduled_date": "2026-02-21",
+      "scheduled_date": "2026-02-20",
       "status": "NEW",
       "outdoor": true
     },
@@ -47,9 +47,40 @@
       "city": "Edinburgh",
       "work_center": "ELEC-EDI-01",
       "short_text": "Main switchboard thermal scan",
-      "scheduled_date": "2026-02-22",
+      "scheduled_date": "2026-02-20",
       "status": "IN_PROGRESS",
       "outdoor": false
-    }
-  ]
-}
+    },
+
+    { "order_id": "40011001", "plant": "UK01", "city": "London",     "work_center": "MECH-LON-02", "short_text": "Boiler feed pump coupling alignment",                       "scheduled_date": "2026-02-20", "status": "RELEASED",    "outdoor": false },
+    { "order_id": "40011002", "plant": "UK01", "city": "London",     "work_center": "CIV-LON-01",  "short_text": "External walkway anti-slip repaint (outdoor)",          "scheduled_date": "2026-02-20", "status": "NEW",         "outdoor": true  },
+    { "order_id": "40011003", "plant": "UK02", "city": "Manchester", "work_center": "ELEC-MAN-01", "short_text": "MCC panel IR camera scan",                           "scheduled_date": "2026-02-20", "status": "RELEASED",    "outdoor": false },
+    { "order_id": "40011004", "plant": "UK03", "city": "Edinburgh",  "work_center": "MECH-EDI-01", "short_text": "Cooling tower fan bearing replacement (outdoor)",    "scheduled_date": "2026-02-20", "status": "RELEASED",    "outdoor": true  },
+    { "order_id": "40011005", "plant": "UK04", "city": "Birmingham", "work_center": "ELEC-BIR-01", "short_text": "UPS battery string test",                            "scheduled_date": "2026-02-20", "status": "NEW",         "outdoor": false },
+    { "order_id": "40011006", "plant": "UK04", "city": "Birmingham", "work_center": "CIV-BIR-02",  "short_text": "Roof gutter clearing (outdoor)",                     "scheduled_date": "2026-02-20", "status": "RELEASED",    "outdoor": true  },
+    { "order_id": "40011007", "plant": "UK05", "city": "Glasgow",    "work_center": "ELEC-GLA-01", "short_text": "Emergency lighting monthly test",                     "scheduled_date": "2026-02-20", "status": "IN_PROGRESS", "outdoor": false },
+    { "order_id": "40011008", "plant": "UK05", "city": "Glasgow",    "work_center": "MECH-GLA-02", "short_text": "Air compressor service",                              "scheduled_date": "2026-02-20", "status": "RELEASED",    "outdoor": false },
+    { "order_id": "40011009", "plant": "UK06", "city": "Leeds",      "work_center": "CIV-LEE-01",  "short_text": "Perimeter fence inspection (outdoor)",                "scheduled_date": "2026-02-20", "status": "NEW",         "outdoor": true  },
+    { "order_id": "40011010", "plant": "UK06", "city": "Leeds",      "work_center": "ELEC-LEE-02", "short_text": "Transformer oil sampling",                            "scheduled_date": "2026-02-20", "status": "RELEASED",    "outdoor": false },
+
+    { "order_id": "40011011", "plant": "UK01", "city": "London",     "work_center": "MECH-LON-03", "short_text": "CHW pump seal change",                               "scheduled_date": "2026-02-21", "status": "ON_HOLD",     "outdoor": false },
+    { "order_id": "40011012", "plant": "UK01", "city": "London",     "work_center": "CIV-LON-02",  "short_text": "Car park bollard replacement (outdoor)",              "scheduled_date": "2026-02-21", "status": "RELEASED",    "outdoor": true  },
+    { "order_id": "40011013", "plant": "UK02", "city": "Manchester", "work_center": "ELEC-MAN-02", "short_text": "LV switchboard contact resistance test",              "scheduled_date": "2026-02-21", "status": "NEW",         "outdoor": false },
+    { "order_id": "40011014", "plant": "UK02", "city": "Manchester", "work_center": "MECH-MAN-03", "short_text": "Fire pump weekly churn test (outdoor)",               "scheduled_date": "2026-02-21", "status": "RELEASED",    "outdoor": true  },
+    { "order_id": "40011015", "plant": "UK03", "city": "Edinburgh",  "work_center": "MECH-EDI-02", "short_text": "Steam trap survey",                                  "scheduled_date": "2026-02-21", "status": "IN_PROGRESS", "outdoor": false },
+    { "order_id": "40011016", "plant": "UK03", "city": "Edinburgh",  "work_center": "CIV-EDI-02",  "short_text": "External handrail tightening (outdoor)",               "scheduled_date": "2026-02-21", "status": "RELEASED",    "outdoor": true  },
+    { "order_id": "40011017", "plant": "UK04", "city": "Birmingham", "work_center": "ELEC-BIR-02", "short_text": "Busbar trunking thermal imaging",                     "scheduled_date": "2026-02-21", "status": "COMPLETED",   "outdoor": false },
+    { "order_id": "40011018", "plant": "UK04", "city": "Birmingham", "work_center": "MECH-BIR-03", "short_text": "AHU filter change (roof, outdoor)",                    "scheduled_date": "2026-02-21", "status": "RELEASED",    "outdoor": true  },
+    { "order_id": "40011019", "plant": "UK05", "city": "Glasgow",    "work_center": "ELEC-GLA-02", "short_text": "Generator load test",                                 "scheduled_date": "2026-02-21", "status": "NEW",         "outdoor": false },
+    { "order_id": "40011020", "plant": "UK05", "city": "Glasgow",    "work_center": "CIV-GLA-01",  "short_text": "Storm drain grate cleaning (outdoor)",                 "scheduled_date": "2026-02-21", "status": "RELEASED",    "outdoor": true  },
+
+    { "order_id": "40011021", "plant": "UK06", "city": "Leeds",      "work_center": "MECH-LEE-02", "short_text": "Hydraulic lift quarterly service",                     "scheduled_date": "2026-02-21", "status": "RELEASED",    "outdoor": false },
+    { "order_id": "40011022", "plant": "UK06", "city": "Leeds",      "work_center": "CIV-LEE-02",  "short_text": "Facade anchor inspection (outdoor)",                   "scheduled_date": "2026-02-21", "status": "NEW",         "outdoor": true  },
+
+    { "order_id": "40011023", "plant": "UK01", "city": "London",     "work_center": "ELEC-LON-03", "short_text": "Panel A earth leakage test",                           "scheduled_date": "2026-02-22", "status": "RELEASED",    "outdoor": false },
+    { "order_id": "40011024", "plant": "UK01", "city": "London",     "work_center": "CIV-LON-03",  "short_text": "Skylight sealant renewal (outdoor)",                  "scheduled_date": "2026-02-22", "status": "RELEASED",    "outdoor": true  },
+    { "order_id": "40011025", "plant": "UK02", "city": "Manchester", "work_center": "MECH-MAN-04", "short_text": "Plate heat exchanger cleaning",                        "scheduled_date": "2026-02-22", "status": "IN_PROGRESS", "outdoor": false },
+    { "order_id": "40011026", "plant": "UK02", "city": "Manchester", "work_center": "CIV-MAN-03",  "short_text": "Loading dock door seal repair (outdoor)",              "scheduled_date": "2026-02-22", "status": "RELEASED",    "outdoor": true  },
+    { "order_id": "40011027", "plant": "UK03", "city": "Edinburgh",  "work_center": "ELEC-EDI-03", "short_text": "Earthing system continuity test",                      "scheduled_date": "2026-02-22", "status": "NEW",         "outdoor": false },
+    { "order_id": "40011028", "plant": "UK03", "city": "Edinburgh",  "work_center": "MECH-EDI-03", "short_text": "Rooftop exhaust stack inspection (outdoor)",           "scheduled_date": "2026-02-22", "status": "RELEASED",    "outdoor": true  },
+    { "order_id": "40011029", "plant": "UK04", "city": "Birmingham", "work_center": "MECH-BIR-04", "short_text": "Seal water pump overhaul",                             "scheduled_date": "2026-02-22", "status": "RELEASED",    "outdoor": false },
