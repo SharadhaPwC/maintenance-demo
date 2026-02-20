@@ -1,0 +1,55 @@
+{
+  "last_updated": "2026-02-19",
+  "orders": [
+    {
+      "order_id": "40001234",
+      "plant": "UK01",
+      "city": "London",
+      "work_center": "MECH-LON-01",
+      "short_text": "Quarterly crane inspection (outdoor)",
+      "scheduled_date": "2026-02-20",
+      "status": "RELEASED",
+      "outdoor": true
+    },
+    {
+      "order_id": "40001235",
+      "plant": "UK01",
+      "city": "London",
+      "work_center": "ELEC-LON-02",
+      "short_text": "Air handler belt replacement",
+      "scheduled_date": "2026-02-21",
+      "status": "NEW",
+      "outdoor": false
+    },
+    {
+      "order_id": "40004510",
+      "plant": "UK02",
+      "city": "Manchester",
+      "work_center": "CIV-MAN-01",
+      "short_text": "Drainage pump inspection",
+      "scheduled_date": "2026-02-20",
+      "status": "RELEASED",
+      "outdoor": true
+    },
+    {
+      "order_id": "40004511",
+      "plant": "UK02",
+      "city": "Manchester",
+      "work_center": "MECH-MAN-02",
+      "short_text": "Generator fuel line inspection",
+      "scheduled_date": "2026-02-21",
+      "status": "NEW",
+      "outdoor": true
+    },
+    {
+      "order_id": "40007890",
+      "plant": "UK03",
+      "city": "Edinburgh",
+      "work_center": "ELEC-EDI-01",
+      "short_text": "Main switchboard thermal scan",
+      "scheduled_date": "2026-02-22",
+      "status": "IN_PROGRESS",
+      "outdoor": false
+    }
+  ]
+}
